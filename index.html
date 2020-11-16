@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaceCar Project</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Speed Racer</h1>
+
+    <div>
+        <h3 id="sampleText"></h3>
+        <button onclick="displayUserInfo('look-it')">Click me!</button>
+    </div>
+
+    <form name="testForm" id="testForm">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" placeholder="First Name">
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form name="buttonForm" id="buttonForm">
+        <label for="username">User Name</label>
+        <input type="text" name="username" id="username" placeholder="User Name">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <button type="submit" onclick="SubmitButtonForm()">Submit Button</button>
+    </form>
+
+    <section id="colors">
+        <button data-hex="#00b894">Mint Leaf</button>
+        <button data-hex="#00cec9">Robin's Egg Blue</button>
+        <button data-hex="#ff7675">Pink Glamour</button>
+        <button data-hex="#6c5ce7">Exodus Fruit</button>
+    </section>
+
+   
+    <h4>Form for F1 Racer Data</h4>
+    <form name="f1RacerForm" id="f1RacerForm">
+        <label for="season">Season</label>
+        <input type="text" name="season" id="season">
+        <label for="round">Round</label>
+        <input type="text" name="round" id="round">
+        <button type="button" onclick="getJson()">Submit Info</button>
+
+    </form>
+
+    <h3 id="familyName"></h3>
+</body>
+</html>

@@ -1,0 +1,25 @@
+  
+.color-change {
+    color: rgb(58, 129, 221)
+}
+
+.stroke {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.bg {
+    
+    background-image: url(../images/car.jpg);
+  
+    
+    height: 100vh;
+  
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+table {
+    opacity: 85%;
+}

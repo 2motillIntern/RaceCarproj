@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<title>Rank</title>
+</head>
+<body class="bg">
+    <div>
+          <div class="container content-justify-center">
+            <h3 class="stroke" style="color:rgb(163, 157, 157)"> <em>for F1 Racer Data</em></h4>
+            <form class="form-inline" name="f1RacerForm" id="f1RacerForm">
+                <div class="form-group mb-2">
+                    <label for="season" class="sr-only">Season</label>
+                    <input type="text" name="season" class="form-control" placeholder="Season" id="season">
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="round" class="sr-only">Round</label>
+                    <input type="text" name="round" class="form-control" id="round">
+                </div>
+                <button type="button" class="btn btn-primary mb-2" onclick="getJson()">Submit Info</button>
+
+            </form>
+        </div>
+
+        
+        <table class="container table table-hover table-dark">
+            <thead>
+            <tr>
+                <th scope="col">Position</th>
+                <th scope="col">Name</th>
+                <th scope="col">Nationality</th>
+                <th scope="col">sponsor</th>
+                <th scope="col">points</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr id="tr1">
+                <th scope="row">1</th>
+            </tr>
+            <tr id="tr2">
+                <th scope="row">2</th>
+            </tr>
+            <tr id="tr3">
+                <th scope="row">3</th>
+            </tr>
+            <tr id="tr4">
+                <th scope="row">4</th>
+            </tr>
+            <tr id="tr5">
+                <th scope="row">5</th>
+            </tr>
+            <tr id="tr6">
+                <th scope="row">6</th>
+            </tr>
+            <tr id="tr7">
+                <th scope="row">7</th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+<script src="js/table.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
